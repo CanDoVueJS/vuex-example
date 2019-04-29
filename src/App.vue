@@ -4,6 +4,7 @@
     <example02 />
     <example03 />
     <example04 />
+    <example05 />
   </div>
 </template>
 
@@ -12,13 +13,15 @@
   import Example02 from './components/Example02'
   import Example03 from './components/Example03'
   import Example04 from './components/Example04'
+  import Example05 from './components/Example05'
   export default {
   name: 'app',
   components: {
     Example01,
     Example02,
     Example03,
-    Example04
+    Example04,
+    Example05
   },
 }
 </script>
