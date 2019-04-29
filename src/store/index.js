@@ -14,6 +14,14 @@ export default new Vuex.Store({
     multiply: (state, getters) => {
       return getters.add * state.count;
     }
+  },
+  mutations: {
+    INCREMENT (state, payload) {
+      state.count = state.count + payload;
+    },
+    DECREMENT (state, payload) {
+      state.count = state.count - payload.count;
+    }
   }
 });
 
